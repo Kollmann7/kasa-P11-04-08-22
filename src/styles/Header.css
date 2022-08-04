@@ -1,0 +1,12 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-wrapper{
+  display: flex;
+  width: 300px;
+  margin-right: 150px;
+  justify-content: space-between;
+  align-self: center;
+  color: #FF6060;
+}
