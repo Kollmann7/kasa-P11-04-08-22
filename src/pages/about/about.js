@@ -1,10 +1,15 @@
 import React from "react"
-import Footer from '../../components/footer/footer'
+import MainLayout from '../../layout/mainLayout'
+import Banner from '../../components/banner/banner'
 
 export default class About extends React.Component {
     render() {
         return(
-            <Footer />
+            <MainLayout>
+                <main className="about">
+                    <Banner />
+                </main>
+            </MainLayout>
         )
     }
 }
