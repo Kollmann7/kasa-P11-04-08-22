@@ -2,6 +2,7 @@ import React from 'react'
 import MainLayout from '../../layout/mainLayout'
 import Banner from '../../components/banner/banner'
 import LocationList from '../../components/locationList/locationList'
+import './home.css'
 
 export default class Home extends React.Component {
   constructor(props) {

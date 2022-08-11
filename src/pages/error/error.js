@@ -11,8 +11,7 @@ export default class Error extends React.Component {
           <div>
             <h2>404</h2>
             <span>
-              Oups! La page que
-              <br /> vous demandez n'existe pas.
+              Oups! La page que vous demandez n'existe pas.
             </span>
           </div>
           <Link to="/">Retourner sur la page d'accueil</Link>

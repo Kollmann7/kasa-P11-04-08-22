@@ -6,14 +6,14 @@ export default class LocationCard extends React.Component {
   render() {
     const { id, title, cover } = this.props.location
     return (
-      <li>
-        <Link to={`/location/${id}`} className="locationCard">
+      <div>
+        <Link to={`/location/${id}`} className="location-card">
           <div>
             <img src={cover} alt={title} />
           </div>
           <h3>{title}</h3>
         </Link>
-      </li>
+      </div>
     )
   }
 }
