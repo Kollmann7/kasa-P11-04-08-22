@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import HeaderLayout from '../../layout/headerLayout'
 import './error.css'
 
 
 export default class Error extends React.Component {
     render() {
       return (
+        <HeaderLayout>
           <main className="error">
             <div>
               <h2>404</h2>
@@ -16,6 +18,7 @@ export default class Error extends React.Component {
             </div>
             <Link to="/">Retourner sur la page d'accueil</Link>
           </main>
+        </HeaderLayout>
       )
     }
   }
