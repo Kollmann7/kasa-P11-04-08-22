@@ -1,20 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import './locationCard.css'
+import LocationCard from '../locationCard/locationCard'
 
-export default class LocationCard extends React.Component {
+export default class LocationList extends React.Component {
   render() {
-    const {  title, cover } = this.props.location
-    console.log(title, cover)
     return (
-      <li>
-        <Link>
-          <div>
-            <img src={cover} alt={title} />
-          </div>
-          <h3>{title}</h3>
-        </Link>
-      </li>
+      <section className="locationList">
+        <ul>
+          {this.props.data.map((location) => (
+            <LocationCard key={location.id} location={location} />
+          ))}
+        </ul>
+      </section>
     )
   }
 }

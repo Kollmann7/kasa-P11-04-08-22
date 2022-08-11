@@ -1,0 +1,10 @@
+.locationList {
+    display:flex;
+    flex-direction:column;
+}
+  
+.locationList ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.25rem;
+}

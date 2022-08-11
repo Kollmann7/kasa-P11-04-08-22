@@ -15,7 +15,7 @@ export default class Home extends React.Component {
 
   }
   componentDidMount() {
-    fetch('../data/data.json')
+    fetch('./data/data.json')
       .then((res) => res.json())
       .then((result) => {
         console.log(result)
@@ -38,7 +38,7 @@ export default class Home extends React.Component {
       <MainLayout>
         <main className="home">
           <Banner title={this.title} />
-          {/* <LocationList data={this.state.data} /> */}
+          <LocationList data={this.state.data} />
         </main>
       </MainLayout>
     )
