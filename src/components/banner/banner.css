@@ -12,10 +12,13 @@
   }
   
 .home .banner {
-    background-image: var(--gradient), url(../../assets/bannerImg.png);
+    background-image: var(--gradient), url(../../assets/bannerHome.png);
 
 }
+.about .banner {
+    background-image: var(--gradient), url(../../assets/bannerAbout.png);
 
+}
 .banner h2 {
     font-size: 36px;
     color: white;
