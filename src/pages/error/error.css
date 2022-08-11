@@ -1,0 +1,28 @@
+.error {
+  color: var(--body-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+.error > div {
+  text-align: center;
+}
+
+.error h2 {
+  font-size: 6rem;
+}
+
+.error span {
+  line-height: 1.5;
+}
+
+.error a {
+  position: fixed;
+  bottom: 20%;
+  color: inherit;
+}
