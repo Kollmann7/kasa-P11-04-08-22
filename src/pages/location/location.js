@@ -19,15 +19,16 @@ function Location() {
           let currentLocation = result.find(
             (location) => location.id === locationId
           )
+          
           setData(currentLocation)
         },
         (error) => {
+          
           setError(error)
         }
       )
   }, [locationId])
 
-  console.log('data', data)
   return (
     <MainLayout>
       <main className="location">

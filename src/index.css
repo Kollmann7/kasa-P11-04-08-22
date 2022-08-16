@@ -35,12 +35,15 @@ ol {
   margin: 0;
   padding: 0;
 }
-body{
+main{
   margin-left: 100px;
   margin-right: 100px;
 
 }
-
+header{
+  margin-left: 100px;
+  margin-right: 100px;  
+}
 .wrapper {
   min-height: calc(100vh - var(--footer-height));
   display: flex;

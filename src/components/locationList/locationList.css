@@ -2,8 +2,11 @@
     display:flex;
     flex-wrap: wrap;
     gap: 40px;
-    width:1400px;
     justify-content: center;
+    background: #F7F7F7;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 .location-list{

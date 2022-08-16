@@ -4,7 +4,6 @@ import './locationCard.css'
 
 function LocationCard (props){
     const { id, title, cover } = props.location
-    console.log(props.location)
     return (
       <div>
         <Link to={`/location/${id}`} className="location-card">
