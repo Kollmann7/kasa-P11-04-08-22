@@ -11,6 +11,9 @@
     justify-content: center;
     padding: 10px;
     height: 223px;
+    font-size: 36px;
+    color: white;
+    font-weight: 500;
   }
   
 .home .banner {
@@ -20,10 +23,5 @@
 .about .banner {
     background-image: var(--gradient), url(../../assets/bannerAbout.png);
 
-}
-.banner h2 {
-    font-size: 36px;
-    color: white;
-    font-weight: 500;
 }
   

@@ -23,6 +23,8 @@
     pointer-events: none;
     transform: scale(.8);
     transition: 0.5 ease-in-out;
+    border-radius:25px;
+
 }
 .carousel-card-active{
     opacity: 1;
