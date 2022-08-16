@@ -1,12 +1,11 @@
 import React from 'react'
 import './banner.css'
 
-export default class Banner extends React.Component {
-  render() {
+function Banner(props) {
     return (
       <div className="banner-wrapper">
-        <div className="banner">{this.props.title}</div>
+        <div className="banner">{props.title}</div>
       </div>
     )
   }
-}
+export default Banner

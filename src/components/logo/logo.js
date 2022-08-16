@@ -2,8 +2,7 @@ import logoKasa  from '../../assets/logo.png'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default class Logo extends React.Component {
-  render(){
+function Logo () {
     return(
       <h1>
         <Link to="/">
@@ -11,6 +10,7 @@ export default class Logo extends React.Component {
         </Link>
       </h1>
     )
-  }  
+ 
 }
 
+export default Logo

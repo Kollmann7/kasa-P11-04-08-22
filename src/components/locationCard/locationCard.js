@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './locationCard.css'
 
-export default class LocationCard extends React.Component {
-  render() {
-    const { id, title, cover } = this.props.location
+function LocationCard (props){
+    const { id, title, cover } = props.location
+    console.log("props", props)
     return (
       <div>
         <Link to={`/location/${id}`} className="location-card">
@@ -15,5 +15,6 @@ export default class LocationCard extends React.Component {
         </Link>
       </div>
     )
-  }
 }
+
+export default LocationCard

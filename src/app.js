@@ -12,7 +12,7 @@ export default class App extends React.Component {
                 <Routes>
                     <Route path='/' element={<Home />}></Route>
                     <Route path='/about' element={<About />}></Route>
-                    <Route path='/location' element={<Location />}></Route>
+                    <Route path='/location/:id' element={<Location />}></Route>
                     <Route path='*' element={<Error />}></Route>
                 </Routes>
             </BrowserRouter>
