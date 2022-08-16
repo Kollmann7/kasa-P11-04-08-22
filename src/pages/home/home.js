@@ -13,7 +13,6 @@ function Home () {
     .then((res) => res.json())
       .then((result) => {
         setData(result)
-        console.log('res', result)
       },(error) => {
         setError(error)
       }
