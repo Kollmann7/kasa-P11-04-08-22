@@ -2,7 +2,7 @@
     display:flex;
     height: 400px;
     width:100%;
-    max-width:800px;
+    max-width:1440px;
 }
 
 .carousel-wrapper{
@@ -46,4 +46,13 @@
 .carousel-arrow-left{
     left: 20px;
     transform: rotate(180deg);
-}     
+}
+
+.carousel_index{
+    position: absolute;
+    left: 48.95%;
+    right: 49.11%;
+    top: 86.19%;
+    bottom: 6.01%;
+    color:white;
+}
