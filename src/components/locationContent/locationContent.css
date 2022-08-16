@@ -1,0 +1,46 @@
+.location-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--body-clr);
+}
+.position{
+    color: var(--body-clr);
+}
+.tags{
+    display: flex;
+    margin-top: 20px;
+}
+.tag{
+    margin-right: 10px;
+    background-color: var(--body-clr);
+    color: white;
+    width: 115px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.host-pp{
+    margin-left: 10px;
+    width: 64px;
+    border-radius: 50%;
+}
+.profil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.host{
+    display: flex;
+    align-items: center;
+}
+.host-name{
+    color: var(--body-clr);
+
+}
