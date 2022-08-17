@@ -1,0 +1,33 @@
+.dropdown{
+    border-radius: 10px;
+    width: 100%;
+    gap:20px;
+}
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    width: 100%;
+    background-color: var(--body-clr) ;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.dropdown-toggle__arrow{
+    height:20px;
+    width:20px;
+}
+.dropdown-toggle__arrow--open {
+    transform: rotate(180deg);
+}
+.dropdown-menu{
+    display: none;
+    padding: 20px;
+    font-size: 20px;
+    color: var(--body-clr);
+}
+.dropdown-menu--open{
+    display: block;
+}
