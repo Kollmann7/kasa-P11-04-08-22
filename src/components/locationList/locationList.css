@@ -1,7 +1,7 @@
 .location-wrapper{
     display:flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
     justify-content: center;
     background: #F7F7F7;
     border-radius: 25px;

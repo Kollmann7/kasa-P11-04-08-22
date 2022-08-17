@@ -4,7 +4,6 @@ import './locationContent.css'
 
 function locationContent(props) {
   const { title, location, host, tags, rating } = props.data
-  console.log(rating)
   return (
     <div className="location-content">
       <div>

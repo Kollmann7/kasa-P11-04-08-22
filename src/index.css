@@ -1,4 +1,3 @@
-
 :root{
   --body-clr: rgba(255, 96, 96, 1);
   --font: 'Montserrat';
@@ -11,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: none;
 }
 
 body {
@@ -36,13 +36,13 @@ ol {
   padding: 0;
 }
 main{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 
 }
 header{
-  margin-left: 100px;
-  margin-right: 100px;  
+  margin-left: 200px;
+  margin-right: 200px;  
 }
 .wrapper {
   min-height: calc(100vh - var(--footer-height));

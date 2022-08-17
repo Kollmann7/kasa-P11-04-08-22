@@ -3,3 +3,7 @@
     flex-direction: column;
     
 }
+.dropdowns-location{
+    display:flex;
+    gap:20px;
+}

@@ -2,7 +2,6 @@
     display:flex;
     height: 400px;
     width:100%;
-    max-width:1440px;
 }
 
 .carousel-wrapper{
@@ -22,7 +21,6 @@
     opacity: 0;
     pointer-events: none;
     transform: scale(.8);
-    transition: 0.5 ease-in-out;
     border-radius:25px;
 
 }
