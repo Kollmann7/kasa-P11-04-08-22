@@ -3,6 +3,7 @@ import MainLayout from '../../layout/mainLayout'
 import { useParams } from 'react-router-dom'
 import Carousel from '../../components/carousel/carousel'
 import LocationContent from '../../components/locationContent/locationContent'
+import Dropdown from '../../components/dropdown/dropdown'
 import './location.css'
 
 function Location() {
@@ -34,6 +35,10 @@ function Location() {
       <main className="location">
         <Carousel data={data.pictures} />
         <LocationContent data={data} />
+        <div className='dropdowns-location'>
+          <Dropdown title='Description' text={data.description} />
+          <Dropdown title='Equipments' list={data.equipments} />
+        </div>
       </main>
     </MainLayout>
   )
