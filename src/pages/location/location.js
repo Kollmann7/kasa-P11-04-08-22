@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react'
 import MainLayout from '../../layout/mainLayout'
 import { useParams } from 'react-router-dom'
@@ -11,34 +12,33 @@ function Location() {
   const locationId = params.id
 
   const [error, setError] = useState(null)
-  const [data, setData] = useState([])
+  const [data, setData] = useState(null)
   useEffect(() => {
     fetch('../data/data.json')
       .then((res) => res.json())
-      .then(
-        (result) => {
-          let currentLocation = result.find(
-            (location) => location.id === locationId
-          )
-          
-          setData(currentLocation)
-        },
-        (error) => {
-          
-          setError(error)
-        }
-      )
+      .then((result) => {
+        let currentLocation = result.find(
+          (location) => location.id === locationId
+        )
+        setData(currentLocation)
+      })
+      .catch((error) => {
+        setError(error)
+      })
   }, [locationId])
-
   return (
     <MainLayout>
       <main className="location">
-        <Carousel data={data.pictures} />
-        <LocationContent data={data} />
-        <div className='dropdowns-location'>
-          <Dropdown title='Description' text={data.description} />
-          <Dropdown title='Equipments' list={data.equipments} />
-        </div>
+        {data && (
+          <>
+            <Carousel data={data.pictures} />
+            <LocationContent data={data} />
+            <div className="dropdowns-location">
+              <Dropdown title="Description" text={data.description} />
+              <Dropdown title="Equipments" list={data.equipments} />
+            </div>
+          </>
+        )}
       </main>
     </MainLayout>
   )
