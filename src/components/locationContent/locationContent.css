@@ -46,3 +46,16 @@
   color: var(--body-clr);
   font-size: 18px;
 }
+@media screen and (max-width: 900px){
+  .location-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profil{
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    width: 100%;
+  }
+}

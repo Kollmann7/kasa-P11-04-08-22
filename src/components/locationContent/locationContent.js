@@ -6,7 +6,7 @@ function locationContent(props) {
   const { title, location, host, tags, rating } = props.data
   return (
     <div className="location-content">
-      <div>
+      <div className="location-information">
         <h3 className="title">{title}</h3>
         <p className="position"> {location}</p>
         <div className="tags">

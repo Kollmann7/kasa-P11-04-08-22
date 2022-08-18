@@ -6,3 +6,11 @@
   display: flex;
   gap: 20px;
 }
+@media screen and (max-width: 900px){
+  .dropdowns-location {
+    flex-direction: column;
+  }
+  .location-information{
+    width: 100%;
+  }
+}
