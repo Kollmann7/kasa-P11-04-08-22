@@ -1,7 +1,6 @@
 import React from 'react'
 import { ReactComponent as Star } from '../../assets/star.svg'
 
-
 function Rating(props) {
   const stars = []
   let color = ''

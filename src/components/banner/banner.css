@@ -1,27 +1,24 @@
-.banner-wrapper{
-    margin-bottom:40px;
+.banner-wrapper {
+  margin-bottom: 40px;
 }
 .banner {
-    --gradient: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    height: 223px;
-    font-size: 36px;
-    color: white;
-    font-weight: 500;
-  }
-  
-.home .banner {
-    background-image: var(--gradient), url(../../assets/bannerHome.png);
+  --gradient: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 223px;
+  font-size: 36px;
+  color: white;
+  font-weight: 500;
+}
 
+.home .banner {
+  background-image: var(--gradient), url(../../assets/bannerHome.png);
 }
 .about .banner {
-    background-image: var(--gradient), url(../../assets/bannerAbout.png);
-
+  background-image: var(--gradient), url(../../assets/bannerAbout.png);
 }
-  

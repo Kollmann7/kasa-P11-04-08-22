@@ -1,17 +1,15 @@
-.location-wrapper{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: center;
-    background: #F7F7F7;
-    border-radius: 25px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
+.location-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  background: #f7f7f7;
+  border-radius: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.location-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+.location-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

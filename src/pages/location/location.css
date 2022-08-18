@@ -1,9 +1,8 @@
-.location{
-    display: flex;
-    flex-direction: column;
-    
+.location {
+  display: flex;
+  flex-direction: column;
 }
-.dropdowns-location{
-    display:flex;
-    gap:20px;
+.dropdowns-location {
+  display: flex;
+  gap: 20px;
 }

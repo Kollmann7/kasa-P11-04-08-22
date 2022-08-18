@@ -1,58 +1,58 @@
-.carousel{
-    display:flex;
-    height: 400px;
-    width:100%;
+.carousel {
+  display: flex;
+  height: 400px;
+  width: 100%;
 }
 
-.carousel-wrapper{
-    position:relative;
-    width: 100%;
-    height: 100%;
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.carousel-card{
-    display:flex;
-    flex:1;
-    position:absolute;
-    width:100%;
-    height: 100%;
-    overflow: hidden;
-    border: 20px;
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(.8);
-    border-radius:25px;
-
+.carousel-card {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+  border-radius: 25px;
 }
-.carousel-card-active{
-    opacity: 1;
-    transform: scale(1);
-    pointer-events: visible;
+.carousel-card-active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
 }
-.card-image{
-    width: 100%;
-    object-fit: cover;
-}
-
-.carousel-arrow-right, .carousel-arrow-left{
-    position:absolute;
-    top: 38%;
-    transform: translateX(0, -50%);
-    display: flex;
-}
-.carousel-arrow-right{
-    right: 20px;
-}
-.carousel-arrow-left{
-    left: 20px;
-    transform: rotate(180deg);
+.card-image {
+  width: 100%;
+  object-fit: cover;
 }
 
-.carousel_index{
-    position: absolute;
-    left: 48.95%;
-    right: 49.11%;
-    top: 86.19%;
-    bottom: 6.01%;
-    color:white;
+.carousel-arrow-right,
+.carousel-arrow-left {
+  position: absolute;
+  top: 38%;
+  transform: translateX(0, -50%);
+  display: flex;
+}
+.carousel-arrow-right {
+  right: 20px;
+}
+.carousel-arrow-left {
+  left: 20px;
+  transform: rotate(180deg);
+}
+
+.carousel_index {
+  position: absolute;
+  left: 48.95%;
+  right: 49.11%;
+  top: 86.19%;
+  bottom: 6.01%;
+  color: white;
 }

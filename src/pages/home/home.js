@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import MainLayout from '../../layout/mainLayout'
 import Banner from '../../components/banner/banner'
 import LocationList from '../../components/locationList/locationList'
-import './home.css'
 
 function Home() {
   const [, setError] = useState(null)
