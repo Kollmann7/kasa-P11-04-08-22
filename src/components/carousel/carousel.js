@@ -20,6 +20,7 @@ function Carousel(props) {
             <div
               key={index}
               className={
+                // eslint-disable-next-line eqeqeq
                 index == current
                   ? 'carousel-card carousel-card-active'
                   : 'carousel-card'
