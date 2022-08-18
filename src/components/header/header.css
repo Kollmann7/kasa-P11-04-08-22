@@ -29,3 +29,24 @@ nav li a {
 nav .active {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1100px){
+  nav li a {
+    font-size: 24px;
+  }
+  .logo-header{
+    width: 180px;
+  }
+  nav ul {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  nav li a {
+    font-size: 12px;
+  }
+  .logo-header{
+    width: 145px;
+  }
+}

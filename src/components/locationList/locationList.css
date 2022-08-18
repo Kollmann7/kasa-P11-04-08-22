@@ -13,3 +13,12 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+@media screen and (max-width: 900px){
+  .location-wrapper{
+    background: white;
+    gap: 30px;
+    padding-top: 0px;
+    flex-direction: column;
+
+  }
+}

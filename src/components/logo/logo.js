@@ -6,7 +6,7 @@ function Logo() {
   return (
     <h1>
       <Link to="/">
-        <img src={logoKasa} alt="Kasa" />
+        <img className='logo-header'src={logoKasa} alt="Kasa" />
       </Link>
     </h1>
   )
