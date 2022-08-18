@@ -6,12 +6,12 @@ function Navigation() {
       <nav>
       <ul>
         <li>
-          <NavLink exact to="/">
+          <NavLink to="/">
             Accueil
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/about">
+          <NavLink to="/about">
             A propos
           </NavLink>
         </li>
