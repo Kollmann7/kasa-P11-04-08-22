@@ -5,3 +5,9 @@
 .dropdown {
   margin: 20px auto 0px;
 }
+
+@media screen and (max-width: 900px){
+  .dropdowns-about {
+    margin:0;
+  }
+}
