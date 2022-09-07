@@ -46,23 +46,33 @@ header {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 900px){
-  header{
+@media screen and (max-width: 900px) {
+  header {
     margin-left: 100px;
     margin-right: 100px;
   }
-  main{
+  main {
     margin-left: 100px;
     margin-right: 100px;
   }
 }
-@media screen and (max-width: 700px){
-  header{
+@media screen and (max-width: 700px) {
+  header {
     margin-left: 50px;
     margin-right: 50px;
   }
-  main{
+  main {
     margin-left: 50px;
     margin-right: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  main {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }

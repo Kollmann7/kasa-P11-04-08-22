@@ -56,3 +56,8 @@
   bottom: 6.01%;
   color: white;
 }
+@media screen and (max-width: 600px) {
+  .arrows {
+    width: 30px;
+  }
+}
